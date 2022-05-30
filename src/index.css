@@ -2,7 +2,7 @@
 * {
   box-sizing: border-box;
 }
-
+@import 'react-toastify/dist/ReactToastify.css';
 html::-webkit-scrollbar {
   display: none;
 }
@@ -209,6 +209,8 @@ button {
   top: -4%;
   right: 1%;
   padding: 1rem;
+  width: 58px;
+  height: 56px;
 }
 
 .forgotPasswordLink {
@@ -216,6 +218,9 @@ button {
   color: #00cc66;
   font-weight: 600;
   text-align: right;
+}
+.forgotPasswordLink:hover {
+  color: #03a654;
 }
 
 .signInBar,
@@ -294,6 +299,11 @@ button {
   font-weight: 600;
   text-align: center;
   margin-bottom: 3rem;
+}
+
+.registerLink:hover {
+  text-decoration: underline;
+  color: #03a654;
 }
 
 @media (min-width: 1217px) {
